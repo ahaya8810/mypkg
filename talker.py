@@ -1,18 +1,21 @@
 import rclpy
-from rvlpy.node import Node
-from person_msgs.msg import Person
+from rclpy.node import Node
+from std_msgs.msg import Int16
+
+class Talker():          #ヘッダの下にTalkerというクラスを作成
+      def __init__(self):  # オブジェクトを作ると呼ばれる関数
+        self.pub = node.create_publisher(Int16, "countup", 10)
+        self.n = 0
 
 rclpy.init()
 node = Node("talker")
-pub = node.create_publisher(Person, "person", 10)
-n = 0
+talker = Talker()
+
 def cd():
-    global n
-    msg = Person()
-    msg.name = "相澤隼翔"
-    msg.age = n
-    pub.publish(msg)
-    n += 1
+    msg = Int()
+    msg.data = "talker.n"
+    talker.pub.publish(msg)
+    talker.n += 1
 
 node.create_timer(0.5, cd)
 rclpy.spin(node)
