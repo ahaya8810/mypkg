@@ -4,7 +4,7 @@ from person_msgs.msg import Person
 
 def cd(msg):
     global node
-    node.get_logger().info("Listen: %d" % msg)
+    node.get_logger().info("Listen: %d" % msg.data)
 
 rclpy.init()
 node = Node("listener")
