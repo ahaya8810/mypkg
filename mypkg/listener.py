@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from person_msgs.msg import Person
+from std_msgs.msg import Person
 
 def cd(msg):
     global node
@@ -8,7 +8,7 @@ def cd(msg):
 
 rclpy.init()
 node = Node("listener")
-pub = node.create_subscription(Person, "person", cd, 10)
+pub = node.create_subscription(Int16, "countup", cd, 10)
 
 rclpy.spin(node)
 

@@ -12,8 +12,8 @@ node = Node("talker")
 talker = Talker()
 
 def cd():
-    msg = Int()
-    msg.data = "talker.n"
+    msg = Int16()
+    msg.data = talker.n
     talker.pub.publish(msg)
     talker.n += 1
 
