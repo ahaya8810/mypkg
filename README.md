@@ -19,5 +19,12 @@ talkerが宣言した数字を標準出力する
 
 ### インストール方法
 ```
-$git clone https://github.com/ahaya8810/mypkg.git
+$ git clone https://github.com/ahaya8810/mypkg.git
+```
+### 実行方法の例
+```
+$ ros2 run mypkg talker
+```
+```
+$ ros2 run mypkg listener
 ```
