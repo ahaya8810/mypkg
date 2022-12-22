@@ -1,6 +1,6 @@
 # mypkg
 
-![test]
+![test](https://github.com/ahaya8810/mypkg/actions/workflows/test.yml)
 
 
 # talkerコマンド
