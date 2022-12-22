@@ -51,7 +51,7 @@ $ ros2 run mypkg listener
 ....
 ```
 ### 必要なソフトウェア
-*
+* Python 3
 ### テスト環境
 * ubuntu 22.04.1 LTS
 ## 権利
