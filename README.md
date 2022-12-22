@@ -15,9 +15,9 @@
 
 talkerが宣言した数字を標準出力する
 
-##インストール方法等
+## インストール方法等
 
-###　インストール方法
+### インストール方法
 ```
 $git clone https://github.com/ahaya8810/mypkg.git
 ```
