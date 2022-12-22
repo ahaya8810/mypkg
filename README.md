@@ -32,9 +32,11 @@ $ ros2 run mypkg talker
 $ ros2 run mypkg listener
 ```
 ### 起動例
+talker側
 ```
 $ ros2 run mypkg talker
 ```
+listener側
 ```
 $ ros2 run mypkg listener
 [INFO] [1671701267.171804400] [listener]: Listen: 0
@@ -44,5 +46,6 @@ $ ros2 run mypkg listener
 [INFO] [1671701269.172308500] [listener]: Listen: 4
 [INFO] [1671701269.672704900] [listener]: Listen: 5
 [INFO] [1671701270.172425900] [listener]: Listen: 6
-[INFO] [1671701270.672327900] [listener]: Listen: 7....
+[INFO] [1671701270.672327900] [listener]: Listen: 7
+....
 ```
