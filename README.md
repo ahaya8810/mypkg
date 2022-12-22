@@ -3,15 +3,15 @@
 ![test](https://github.com/ahaya8810/mypkg/actions/workflows/test.yml/badge.svg)
 
 
-# talkerコマンド
+## talkerコマンド
 
-## 機能
+### 機能
 
 整数を０から順番に宣言していく
 
-# listenerコマンド
+## listenerコマンド
 
-## 機能
+### 機能
 
 talkerが宣言した数字を標準出力する
 
