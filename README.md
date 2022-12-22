@@ -49,3 +49,9 @@ $ ros2 run mypkg listener
 [INFO] [1671701270.672327900] [listener]: Listen: 7
 ....
 ```
+### 必要なソフトウェア
+* Python 
+### テスト環境
+* ubuntu 22.04.1 LTS
+
+## 権利
