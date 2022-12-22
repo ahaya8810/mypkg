@@ -2,6 +2,7 @@
 
 ![test](https://github.com/ahaya8810/mypkg/actions/workflows/test.yml/badge.svg)
 
+このリポジトリはロボットシステム学で使用しているリポジトリです。
 
 ## talkerコマンド
 
@@ -23,7 +24,7 @@ $ git clone https://github.com/ahaya8810/mypkg.git
 ```
 ### 実行方法の例
 
-２つのコマンドは２つのターミナルで実行する
+以下の２つのコマンドは別々のターミナルで実行する
 
 ```
 $ ros2 run mypkg talker
@@ -50,8 +51,8 @@ $ ros2 run mypkg listener
 ....
 ```
 ### 必要なソフトウェア
-* Python 
+*
 ### テスト環境
 * ubuntu 22.04.1 LTS
-
 ## 権利
+* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
