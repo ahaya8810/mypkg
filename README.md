@@ -22,6 +22,9 @@ talkerが宣言した数字を標準出力する
 $ git clone https://github.com/ahaya8810/mypkg.git
 ```
 ### 実行方法の例
+
+２つのコマンドは２つのターミナルで実行する
+
 ```
 $ ros2 run mypkg talker
 ```
