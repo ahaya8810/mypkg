@@ -3,6 +3,7 @@
 ![test](https://github.com/ahaya8810/mypkg/actions/workflows/test.yml/badge.svg)
 
 このリポジトリはロボットシステム学で使用しているリポジトリです。
+このプログラムはROS2を使用しています。
 
 ## talkerコマンド
 
