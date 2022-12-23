@@ -55,10 +55,6 @@ $ ros2 run mypkg listener
 ### 起動例2
 ```
 $ ros2 launch mypkg talk_listen.launch.py
-[INFO] [launch]: All log files can be found below /root/.ros/log/2022-12-23-13-06-03-695128-DESKTOP-V0CH8E9-113
-[INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [talker-1]: process started with pid [114]
-[INFO] [listener-2]: process started with pid [116]
 [listener-2] [INFO] [1671768364.680333300] [listener]: Listen: 0
 [listener-2] [INFO] [1671768365.140367600] [listener]: Listen: 1
 [listener-2] [INFO] [1671768365.640273900] [listener]: Listen: 2
